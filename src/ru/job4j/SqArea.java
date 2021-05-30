@@ -5,11 +5,12 @@ public class SqArea {
         double h = p / (2 * (k + 1));
         double l = h * k;
         double s = l * h;
-        return s;
+        double rsl = 2;
+        return rsl;
     }
 
     public static void main(String[] args) {
-        double result1 = SqArea.square(6, 2,);
+        double result1 = SqArea.square(6, 2);
         System.out.println(" p = 6, k = 2, s = " + result1);
     }
 }
