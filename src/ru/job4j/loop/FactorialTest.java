@@ -6,7 +6,7 @@ import org.junit.Test;
 public class FactorialTest {
     @Test
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
-        int n = 1;
+        int n = 5;
         int result = Factorial.calc(n);
         int expected = 120;
         Assert.assertEquals(expected, result);
@@ -16,7 +16,7 @@ public class FactorialTest {
     public void whenCalculateFactorialForZeroThenOne() {
         int n = 0;
         int result = Factorial.calc(n);
-        int expected = 120;
+        int expected = 1;
         Assert.assertEquals(expected, result);
     }
 }
