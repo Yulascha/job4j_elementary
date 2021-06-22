@@ -2,6 +2,7 @@ package ru.job4j.calculator;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.calculator.Fit;
 
 public class FitTest {
 
@@ -9,7 +10,7 @@ public class FitTest {
     public void whenMan180Then92() {
         short in = 180;
         double expected = 92;
-        double out = Fit.manWeight(in);
+        double out = ru.job4j.calculator.Fit.manWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
 
