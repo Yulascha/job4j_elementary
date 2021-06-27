@@ -3,7 +3,9 @@ package ru.job4j.array;
 public class Square {
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
-        rst[bound] = bound * bound;
+        for (int i = 0; i < rst.length; i++) {
+            rst[i] = i * i;
+        }
         return rst;
     }
 
@@ -11,6 +13,10 @@ public class Square {
         int[] array = calculate(3);
         for (int index = 0; index < array.length; index++) {
             System.out.println(array[index]);
+        }
+        int[] array1 = calculate(5);
+        for (int index = 0; index < array1.length; index++) {
+            System.out.println(array1[index]);
         }
     }
 }
