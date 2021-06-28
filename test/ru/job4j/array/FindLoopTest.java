@@ -12,4 +12,13 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenArrayHas1Then() {
+        int[] data = {5, 4, 3, 2};
+        int el = 1;
+        int result = FindLoop.indexOf(data, el);
+        int expected = -1;
+        Assert.assertEquals(expected, result);
+    }
 }
