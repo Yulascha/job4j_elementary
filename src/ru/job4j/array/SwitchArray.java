@@ -4,7 +4,6 @@ public class SwitchArray {
 
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
-        array[0] = array[0];
         array[0] = temp;
         return array;
     }
