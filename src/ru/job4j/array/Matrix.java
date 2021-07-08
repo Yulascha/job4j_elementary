@@ -8,6 +8,6 @@ public class Matrix {
                 multiple[row][cell] = (row + 1) * (cell + 1);
             }
         }
-        return multiple;
+        return multiple(size);
     }
 }
