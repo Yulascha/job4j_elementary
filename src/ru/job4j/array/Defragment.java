@@ -10,13 +10,12 @@ public class Defragment {
                         int notNullIndex = i;
                         swap(array, point, notNullIndex);
                         }
+                    System.out.print(array[index] + " ");
                     }
                 }
             }
-            System.out.print(array[index] + " ");
-        }
         return array;
-    }
+        }
 
     public static void main(String[] args) {
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
